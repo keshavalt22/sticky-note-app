@@ -1,0 +1,245 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Custom Style*/
+
+body {
+    background-color: whitesmoke;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+textarea {
+    width: 30%;
+    height: 120px;
+    min-width: 200px;
+    /* Set a minimum width */
+    padding: 10px;
+    font-size: 14px;
+    margin: 20px auto;
+    /* Center the textarea */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* Rounded edges */
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.add-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.note-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    /* Enable vertical scrolling if the content exceeds the note height */
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.edit-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+.edit-button:hover {
+    background-color: #2980b9;
+}
